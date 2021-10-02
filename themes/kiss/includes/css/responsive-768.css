@@ -1,0 +1,77 @@
+
+/* --   [Sections: Home]       -- */
+#splash-img {
+	top:-2vh;
+	left: 0;
+	width: calc(881px * 0.63);
+	height: calc(873px *  0.63);
+}
+
+/* --   [Sections: News]       -- */
+#section-news-rss.container {
+	max-width: 100%;
+}
+#section-news-rss h3 {
+	font-size: 24pt;
+	display: inline-block;
+}
+#section-news-rss #news-menu-box {
+	display: inline-block;
+	position: absolute;
+	right: 50px;
+}
+#section-news-rss #news-rss-content .content-box {
+	width: 240px;
+}
+#section-news-rss #news-rss-content .content-box .news-cat-img{
+	width: calc(240px * .95);
+	height: calc(156px * .95);
+}
+#section-news-rss #news-rss-content .content-box .news-content-block {
+	padding: 0 5px 15px;
+}
+
+/* --   [Sections: Job]       -- */
+#section-job #job-sprite li {
+	min-width: calc(120px * 0.9);
+}
+#section-job #job-sprite li .subs{
+	width: calc(110px * 0.9);
+}
+#section-job #job-sprite li .job-img, #section-job #job-sprite li.active .job-img {
+	height: calc(110px * 0.9);
+	width: calc(110px * 0.9);
+}
+#section-job #job-img {
+	top: calc(700px * -1);
+}
+
+/* --   [Sections: Info]       -- */
+#info-img {
+	left: -30px;
+	right: unset;
+}
+
+#info-box #info-logo {
+	position: absolute;
+	top: -85px;
+	transform: unset;
+	left: 0px;
+	width: calc(298px * 1);
+	height: calc(169px * 1);
+}
+
+/* --   [Sections: Gallery]       -- */
+#section-gallery .gallery-box {
+	padding: 0;
+	margin-bottom: -34px;
+}
+#section-gallery .gallery-box:nth-child(2) {
+	padding-right: 0;
+}
+
+
+/* --   [Core: forms]       -- */
+.core textarea {
+	width: 90%;
+}

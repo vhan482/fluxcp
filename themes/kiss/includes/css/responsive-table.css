@@ -1,0 +1,81 @@
+table.collapse-responsive {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table.collapse-responsive caption {
+  f/ont-size: 12pt;
+  margin: .5em 0 .75em;
+}
+
+table.collapse-responsive tr {
+  b/ackground-color: #f8f8f8;
+  b/order: 1px solid #ddd;
+  padding: .35em;
+}
+
+table.collapse-responsive th,
+table.collapse-responsive td {
+  padding: .625em;
+  t/ext-align: center;
+}
+
+table.collapse-responsive th {
+  f/ont-size: 12pt;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table.collapse-responsive {
+    border: 0;
+  }
+
+  table.collapse-responsive caption {
+    font-size: 10pt;
+  }
+
+  table.collapse-responsive thead, table.collapse-responsive th {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table.collapse-responsive tr {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+
+  table.collapse-responsive td {
+    b/order-bottom: 1px solid #ddd;
+    display: block;
+    f/ont-size: .8em;
+    font-size: 10pt;
+    text-align: right;
+  }
+
+  table.collapse-responsive td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    t/ext-transform: uppercase;
+  }
+
+  table.collapse-responsive td:last-child {
+    border-bottom: none;
+  }
+}

@@ -1,0 +1,52 @@
+
+
+/* --   [Sections: Home]       -- */
+#splash-img {
+	top:-2vh;
+	left: 0;
+	width: calc(881px * 1);
+	height: calc(873px * 1);
+}
+
+/* --   [Sections: News]       -- */
+#news-slider .slick-prev, #news-slider .slick-next {
+    z-index: 3;
+}
+#news-slider .slick-prev {
+    left: 70px;
+}
+#news-slider .slick-next {
+    right: 115px;
+}
+#news-slider .slick-prev:before, #news-slider .slick-next:before {
+	font-size: 65px;
+}
+
+#section-news-rss.container {
+	max-width: 1140px;
+}
+#section-news-rss #news-rss-content .content-box .news-cat-img{
+	width: calc(240px * 1);
+	height: calc(156px * 1);
+}
+#section-news-rss #news-rss-content .content-box {
+	width: 520px;
+}
+#section-news-rss #news-rss-content .content-box p.news-desc{
+	width: 280px;
+}
+#section-news-rss #news-rss-content .content-page-box {
+	padding-right: 0;
+}
+
+/* --   [Sections: Job]       -- */
+#section-job #job-sprite li {
+	min-width: 120px;
+}
+#section-job #job-sprite li .subs{
+	width: 110px;
+}
+#section-job #job-sprite li .job-img, #section-job #job-sprite li.active .job-img {
+	height: 110px;
+	width: 110px;
+}

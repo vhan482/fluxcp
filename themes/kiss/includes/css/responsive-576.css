@@ -1,0 +1,47 @@
+
+/* --   [Sections: Home]       -- */
+#splash-img {
+	left:-15vh;
+	width: calc(881px * 0.55);
+	height: calc(873px *  0.55);
+}
+
+#home-login #splash-login-box {
+	max-width: 278px;
+	margin:0 0 0 auto;
+}
+#home-login #splash-register-box {
+	width: 278px;
+    margin: 15px 0 0 auto;
+}
+
+/* --   [Sections: Info]       -- */
+#info-img {
+	right: -30px;
+}
+
+#info-box #info-logo {
+	position: absolute;
+	top: -85px;
+	transform: unset;
+	left: 0px;
+	width: calc(298px * 1);
+	height: calc(169px * 1);
+}
+
+#info-box #info-text span.info-huge {
+	font-size: 24pt;
+	line-height: 24pt;
+}
+#info-box #info-text span.info-big {
+	font-size: 14pt;
+	line-height: 16pt;
+}
+
+/* --   [Sections: Gallery]       -- */
+#section-gallery .gallery-box {
+	padding: 0 0 0 4px;
+}
+#section-gallery .gallery-box:nth-child(2) {
+	padding-right: 4px;
+}
